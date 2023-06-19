@@ -1,0 +1,4 @@
+rootProject.name = 'tst_temp_figma_dev_92882'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/react-native-gradle-plugin')
